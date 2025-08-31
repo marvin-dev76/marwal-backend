@@ -1,0 +1,26 @@
+* {
+  font-family: "Google Sans Code";
+  font-size: 14px;
+}
+
+.tabs-and-actions-container {
+  display: none !important;
+}
+
+.label-name {
+  font-size: 12px !important;
+}
+
+
+.title-label {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.title-label > h2::before {
+  content: '🪴';
+}
+
+.title-label > h2 {
+  font-size: 12px !important;
+}
