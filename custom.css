@@ -24,3 +24,27 @@
 .title-label > h2 {
   font-size: 12px !important;
 }
+
+{
+            "background": "#0C0E10",
+            "black": "#2f373f",
+            "blue": "#0490A0",
+            "brightBlack": "#39434d",
+            "brightBlue": "#0490A0",
+            "brightCyan": "#019D76",
+            "brightGreen": "#455679",
+            "brightPurple": "#6AB0A3",
+            "brightRed": "#E61F44",
+            "brightWhite": "#DFDFDF",
+            "brightYellow": "#007AAE",
+            "cursorColor": "#DFDFDF",
+            "cyan": "#7AAE8E",
+            "foreground": "#DFDFDF",
+            "green": "#0490A0",
+            "name": "black ocean",
+            "purple": "#6AB0A3",
+            "red": "#E61F44",
+            "selectionBackground": "#DFDFDF",
+            "white": "#DFDFDF",
+            "yellow": "#455679"
+        },
