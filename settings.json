@@ -1,0 +1,304 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "breadcrumbs.enabled": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.renderLineHighlight": "none",
+  "editor.glyphMargin": false,
+  "editor.showFoldingControls": "never",
+  "window.menuBarVisibility": "toggle",
+  "workbench.layoutControl.type": "menu",
+  "window.title": " ",
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": ["j", "k"],
+      "after": ["<esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [",", "w"],
+      "after": ["<esc>", ":", "w", "<cr>"]
+    },
+    {
+      "before": [",", "f", "m"],
+      "after": [],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["S-x"],
+      "after": ["<esc>", ":", "x", "<cr>"]
+    },
+    {
+      "before": [",", "t"],
+      "after": [],
+      "commands": ["workbench.action.terminal.focus"]
+    },
+    {
+      "before": [",", "a"],
+      "after": [],
+      "commands": ["explorer.newFile"]
+    },
+    {
+      "before": [",", "e"],
+      "after": [],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": [";"],
+      "after": [":"]
+    },
+    {
+      "before": [",", "f", "f"],
+      "after": [],
+      "commands": ["workbench.action.quickOpen"]
+    }
+  ],
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.gpuAcceleration": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.matchBrackets": "never",
+  "editor.occurrencesHighlight": "off",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/marvi/Documents/custom.css",
+    "file:///c:/Users/marvi/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
+  "editor.fontWeight": "500",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.lightbulb.enabled": "off",
+  "terminal.integrated.env.windows": {},
+  "editor.inlayHints.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "debug.console.fontFamily": "\"Fira Code\"",
+  "explorer.confirmDelete": false,
+  "editor.guides.highlightActiveIndentation": false,
+  "explorer.confirmDragAndDrop": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "terminal.integrated.fontWeight": "400",
+  "workbench.activityBar.location": "hidden",
+  "editor.lineHeight": 2.2,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "terminal.integrated.fontFamily": "\"BerkeleyMono Nerd Font\"",
+  // "editor.tokenColorCustomizations": {
+  //   "textMateRules": [
+  //     {
+  //       "scope": [
+  //         //following will be in italic (=FlottFlott)
+  //         "comment",
+  //         "entity.name.type.class", //class names
+  //         "keyword", //import, export, return…
+  //         "constant", //String, Number, Boolean…, this, super
+  //         "storage.modifier", //static keyword
+  //         "storage.type.class.js" //class keyword
+  //       ],
+  //       "settings": {
+  //         "fontStyle": "italic"
+  //       }
+  //     },
+  //     {
+  //       "scope": [
+  //         //following will be excluded from italics (VSCode has some defaults for italics)
+  //         "invalid",
+  //         "keyword.operator",
+  //         "constant.numeric.css",
+  //         "keyword.other.unit.px.css",
+  //         "constant.numeric.decimal.js",
+  //         "constant.numeric.json"
+  //       ],
+  //       "settings": {
+  //         "fontStyle": ""
+  //       }
+  //     }
+  //   ]
+  // },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "comment.block",
+          "comment.block.documentation",
+          "comment.line",
+          "constant",
+          "constant.character",
+          "constant.character.escape",
+          "constant.numeric",
+          "constant.numeric.integer",
+          "constant.numeric.float",
+          "constant.numeric.hex",
+          "constant.numeric.octal",
+          "constant.other",
+          "constant.regexp",
+          "constant.rgb-value",
+          "emphasis",
+          "entity",
+          "entity.name",
+          "entity.name.class",
+          "entity.name.function",
+          "entity.name.method",
+          "entity.name.section",
+          "entity.name.selector",
+          "entity.name.tag",
+          "entity.name.type",
+          "entity.other",
+          "entity.other.attribute-name",
+          "entity.other.inherited-class",
+          "invalid",
+          "invalid.deprecated",
+          "invalid.illegal",
+          "keyword",
+          "keyword.control",
+          "keyword.operator",
+          "keyword.operator.new",
+          "keyword.operator.assignment",
+          "keyword.operator.arithmetic",
+          "keyword.operator.logical",
+          "keyword.other",
+          "markup",
+          "markup.bold",
+          "markup.changed",
+          "markup.deleted",
+          "markup.heading",
+          "markup.inline.raw",
+          "markup.inserted",
+          "markup.italic",
+          "markup.list",
+          "markup.list.numbered",
+          "markup.list.unnumbered",
+          "markup.other",
+          "markup.quote",
+          "markup.raw",
+          "markup.underline",
+          "markup.underline.link",
+          "meta",
+          "meta.block",
+          "meta.cast",
+          "meta.class",
+          "meta.function",
+          "meta.function-call",
+          "meta.preprocessor",
+          "meta.return-type",
+          "meta.selector",
+          "meta.tag",
+          "meta.type.annotation",
+          "meta.type",
+          "punctuation.definition.string.begin",
+          "punctuation.definition.string.end",
+          "punctuation.separator",
+          "punctuation.separator.continuation",
+          "punctuation.terminator",
+          "storage",
+          "storage.modifier",
+          "storage.type",
+          "string",
+          "string.interpolated",
+          "string.other",
+          "string.quoted",
+          "string.quoted.double",
+          "string.quoted.other",
+          "string.quoted.single",
+          "string.quoted.triple",
+          "string.regexp",
+          "string.unquoted",
+          "strong",
+          "support",
+          "support.class",
+          "support.constant",
+          "support.function",
+          "support.other",
+          "support.type",
+          "support.type.property-name",
+          "support.variable",
+          "variable",
+          "variable.language",
+          "variable.name",
+          "variable.other",
+          "variable.other.readwrite",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "explorer.decorations.colors": false,
+  "window.titleBarStyle": "custom",
+  "editor.inlineSuggest.fontFamily": "\"Fira Code\"",
+  "editor.codeLensFontFamily": "\"Fira Code\"",
+  "scm.inputFontFamily": "\"Fira Code\"",
+  "notebook.output.fontFamily": "\"Fira Code\"",
+  "editor.experimentalWhitespaceRendering": "font",
+  "vim.useSystemClipboard": true,
+  "editor.suggest.showStatusBar": true,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.stickyScroll.enabled": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": true,
+  "workbench.colorCustomizations": {},
+  "editor.wordWrap": "on",
+  "editor.detectIndentation": false,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "editor.indentSize": "tabSize",
+  "workbench.tree.indent": 20,
+  "editor.tabSize": 2,
+  "symbols.hidesExplorerArrows": false,
+  "terminal.integrated.fontSize": 13.7,
+  "workbench.settings.applyToAllProfiles": [],
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.compactFolders": false,
+  "workbench.iconTheme": "catppuccin-macchiato",
+  "dotnet.codeLens.enableReferencesCodeLens": false,
+  "workbench.reduceMotion": "off",
+  "terminal.integrated.tabs.enableAnimation": false,
+  "vscode_vibrancy.opacity": 0,
+  "vscode_vibrancy.type": "acrylic",
+  "vscode_vibrancy.refreshInterval": 1,
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "workbench.productIconTheme": "feather-vscode",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "editor.fontSize": 16,
+  "animations.Enabled": true
+}
